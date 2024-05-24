@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Favourite-car/static/css/main.c9df608c.css",
+    "main.js": "/Favourite-car/static/js/main.39e42e0a.js",
+    "index.html": "/Favourite-car/index.html",
+    "main.c9df608c.css.map": "/Favourite-car/static/css/main.c9df608c.css.map",
+    "main.39e42e0a.js.map": "/Favourite-car/static/js/main.39e42e0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9df608c.css",
+    "static/js/main.39e42e0a.js"
+  ]
+}
