@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100vh;
+    background: rgb(8,0,141);
+background: radial-gradient(circle, rgba(8,0,141,1) 12%, rgba(3,3,75,1) 61%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.title{
+    border: 7px dashed #07d322;
+    border-radius: 20px;
+    font-size: 3rem;
+    margin: 6vh;
+    padding: 1vh 5vw;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-flow: row wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(7, 211, 202, 100) 0px 3px 8px;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    /* aspect-ratio: 1/1; */
+    object-fit:cover;
+    /* box-shadow: rgba(7, 211, 202, 100) 0px 0px 8px; */
+    margin: 2rem;
+}
+
+.tourInfo{
+    margin: 20px 5px;
+}
+
+.tourPrice{
+    color: #12b8c8;
+    font-size: 1.3rem;
+}
+
+.tourName{
+    font-size: 1.5rem;
+    color: #12b8c8;
+}
+
+.readMore{
+    color: #12b8c8;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.btnRed{
+    text-align: center;
+    color: white;
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid #fff80a;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background: #b4161b21;
+    transition: all 0.5ms;
+    color: #fff;
+}
+
+.btnRed:hover{
+    background-color: #07d322;
+    color: white;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnWhite{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid white;
+}
+
+.btnWhite:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all .2s;
+}
+
+.description{
+    color: white;
+}
+h2{
+    color: #fff;
+}
